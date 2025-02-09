@@ -1,0 +1,2 @@
+sqlalchemy~=2.0.38
+alembic~=1.14.1
