@@ -9,6 +9,11 @@ docker run --name school_db -p 5432:5432 -e POSTGRES_PASSWORD=pythonweb6 -d post
 ```bash
 pip install -r requirements.txt
 ```
+Ініціалізувати базу даних
+```bash
+alembic revision --autogenerate -m 'Init'
+alembic upgrade head
+```
 
 Запустити скрипт додавання даних до бази
 ```bash
